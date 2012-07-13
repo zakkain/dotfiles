@@ -1,4 +1,9 @@
-# holman does dotfiles
+# ~~holman~~ zak does dotfiles
+
+This is a fork of @holman's dotfiles, which I will turn into *my* dotfiles repo, not understanding most of what's here and hacking apart what I do. Yay!
+
+***
+# @holman's README:
 
 ## dotfiles
 
