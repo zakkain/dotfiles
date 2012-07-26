@@ -2,19 +2,15 @@
 #
 # You probably want to change the [user] section here since you are not me.
 
-[hub]
-        protocol = https
+#[hub]
+#        protocol = https
 [user]
 	name = Zachary Kain
         email = zakkain@gmail.com
 [credential]
         helper = osxkeychain
 [alias]
-        co = checkout
-        promote = !$ZSH/bin/git-promote
-        wtf     = !$ZSH/bin/git-wtf
-        rank-contributers = !$ZSH/bin/git-rank-contributers
-        count   = !git shortlog -sn
+
 [color]
         diff = auto
         status = auto
@@ -29,5 +25,3 @@
         keepBackup = false
 [difftool]
         prompt = false
-[help]
-        autocorrect = 1
