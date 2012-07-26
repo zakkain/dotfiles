@@ -11,3 +11,7 @@ alias edit='subl'
 # usage:
 # $ server
 alias server='open http://localhost:8000 && python -m SimpleHTTPServer'
+
+# linking and symlinking
+alias symlink='ln -s'
+alias hardlink='ln'

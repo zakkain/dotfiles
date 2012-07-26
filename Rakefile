@@ -55,3 +55,7 @@ task :uninstall do
 end
 
 task :default => 'install'
+
+task :copyFiles do
+  `cp iterm2/code.googlecode.iterm2.plist ~/dropbox`
+end
