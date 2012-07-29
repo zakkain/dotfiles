@@ -1,3 +1,5 @@
+alias newAlias='sublime ~/.dotfiles/zsh/aliases.zsh'
+
 alias reload!='. ~/.zshrc'
 
 alias heroku='nocorrect heroku'
@@ -16,4 +18,10 @@ alias server='open http://localhost:8000 && python -m SimpleHTTPServer'
 alias symlink='ln -s'
 alias hardlink='ln'
 
-alias newAlias='sublime ~/.dotfiles/zsh/aliases.zsh'
+# basic terminal operations
+	# will effectively MOVE a file from place to place
+alias rename='mv'
+	# will remove EVERYTHING
+alias delete='rm -r'
+	# will copy folder contents, if folder ends in / will copy contents, not folder itself
+alias copy='cp -r'
