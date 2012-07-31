@@ -3,8 +3,9 @@ alias newAlias='sublime ~/.dotfiles/zsh/aliases.zsh'
 alias reload!='. ~/.zshrc'
 
 alias heroku='nocorrect heroku'
-alias git='nocorrect git'
+# alias git='nocorrect git'
 alias boom='nocorrect boom'
+alias git='hub'
 
 alias sublime='subl'
 alias edit='subl'
@@ -25,3 +26,6 @@ alias rename='mv'
 alias delete='rm -r'
 	# will copy folder contents, if folder ends in / will copy contents, not folder itself
 alias copy='cp -r'
+
+# SSH
+alias moonbase='ssh zacharyk@zacharykain.com -p 7822'
