@@ -29,3 +29,9 @@ alias copy='cp -r'
 
 # SSH
 alias moonbase='ssh zacharyk@zacharykain.com -p 7822'
+
+#qq by brett terpstra
+alias qq='~/.dotfiles/osx/qq'
+
+# dandelion deploying
+alias dand='dandelion deploy'
