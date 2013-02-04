@@ -10,6 +10,11 @@ alias git='hub'
 alias sublime='subl'
 alias edit='subl'
 
+
+# spin up habitrpg server
+alias habitrpg="BASE_URL="http://localhost:3000" FACEBOOK_KEY=abc FACEBOOK_SECRET=abc NODE_DB_URI=mongodb://localhost/habitrpg nodemon --ext '.css|.html' server.js"
+
+
 # this starts up a super-light localhost
 # usage:
 # $ server
