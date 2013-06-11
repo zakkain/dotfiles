@@ -1,0 +1,15 @@
+postgres cannot access the server configuration file "/usr/local/var/postgres/postgresql.conf": No such file or directory
+postgres cannot access the server configuration file "/usr/local/var/postgres/postgresql.conf": No such file or directory
+postgres cannot access the server configuration file "/usr/local/var/postgres/postgresql.conf": No such file or directory
+postgres cannot access the server configuration file "/usr/local/var/postgres/postgresql.conf": No such file or directory
+LOG:  database system was shut down at 2013-05-30 12:57:35 EDT
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+ERROR:  syntax error at or near "postgres" at character 1
+STATEMENT:  postgres=# create role modreal login createdb;
+FATAL:  database "modreal_development" does not exist
+FATAL:  database "modreal_development" does not exist
+FATAL:  database "modreal_development" does not exist
+ERROR:  database "modreal_development" already exists
+STATEMENT:  CREATE DATABASE modreal_development OWNER modreal ENCODING 'UTF8';
+	

@@ -3,13 +3,19 @@ alias newAlias='sublime ~/.dotfiles/zsh/aliases.zsh'
 alias reload!='. ~/.zshrc'
 
 alias heroku='nocorrect heroku'
-# alias git='nocorrect git'
+
 alias boom='nocorrect boom'
 alias git='hub'
+alias octogit='/usr/local/share/python/octogit'
 
 alias sublime='subl'
 alias edit='subl'
 
+# whois lookup
+alias whois="whois -h whois-servers.net"
+
+# Undo a `git push`
+alias undopush="git push -f origin HEAD^:master"
 
 # spin up habitrpg server
 alias habitrpg="BASE_URL="http://localhost:3000" FACEBOOK_KEY=abc FACEBOOK_SECRET=abc NODE_DB_URI=mongodb://localhost/habitrpg nodemon --ext '.css|.html' server.js"
@@ -40,3 +46,7 @@ alias qq='~/.dotfiles/osx/qq'
 
 # dandelion deploying
 alias dand='dandelion deploy'
+
+# postgres spinup
+alias postsql='pg_ctl -D /usr/local/var/postgres -l logfile start'
+alias postsqlstop='pg_ctl -D /usr/local/var/postgres -l logfile stop'
