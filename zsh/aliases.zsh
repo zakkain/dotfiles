@@ -1,3 +1,16 @@
+# telus stuff
+alias astart="sudo /apps/apache2/current/bin/httpd -k start; tail -f /apps/apache2/current/logs/error.log"
+alias astop="sudo /apps/apache2/current/bin/httpd -k stop"
+alias arestart="astop; echo $DDASHES; echo 'STARTING SERVER'; echo $DDASHES; sleep 3; astart"
+alias aweb="cd /data/web/apache/"
+
+alias tstart="/apps/tomcat/current/bin/catalina.sh start; tail -f /apps/tomcat/current/logs/catalina.out"
+alias tstop="/apps/tomcat/current/bin/catalina.sh stop 3 -force"
+alias trestart="tstop; echo $DDASHES; echo 'STARTING SERVER'; echo $DDASHES; sleep 3; tstart"
+alias tweb="cd /data/web/tomcat/"
+
+##########################################
+
 alias newAlias='sublime ~/.dotfiles/zsh/aliases.zsh'
 
 alias reload!='. ~/.zshrc'
@@ -10,6 +23,8 @@ alias octogit='/usr/local/share/python/octogit'
 
 alias sublime='subl'
 alias edit='subl'
+
+alias mou='open -a Mou.app'
 
 # whois lookup
 alias whois="whois -h whois-servers.net"

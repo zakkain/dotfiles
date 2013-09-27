@@ -13,3 +13,7 @@ FATAL:  database "modreal_development" does not exist
 ERROR:  database "modreal_development" already exists
 STATEMENT:  CREATE DATABASE modreal_development OWNER modreal ENCODING 'UTF8';
 	
+LOG:  received smart shutdown request
+LOG:  autovacuum launcher shutting down
+LOG:  shutting down
+LOG:  database system is shut down
