@@ -13,3 +13,4 @@ alias grm="git status | grep deleted | awk '{print \$3}' | xargs git rm"
 alias unstage='git reset HEAD'
 alias ghpages='git push -f origin master:gh-pages'
 alias renamerepo='git remote set-url origin newurl'
+alias undopush="git push -f origin HEAD^:master"

@@ -1,1 +1,0 @@
-open $@ --args --allow-file-access-from-files
