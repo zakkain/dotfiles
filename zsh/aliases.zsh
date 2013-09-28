@@ -65,3 +65,7 @@ alias dand='dandelion deploy'
 # postgres spinup
 alias postsql='pg_ctl -D /usr/local/var/postgres -l logfile start'
 alias postsqlstop='pg_ctl -D /usr/local/var/postgres -l logfile stop'
+
+
+# sync gif folder to amazon bucket
+alias loadgifs='s3cmd sync --delete-removed ~/Dropbox/Public/_macros/ s3://zkkn.co/'
