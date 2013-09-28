@@ -1,0 +1,17 @@
+{
+	"files":
+	{
+		"H5V-polyfill": "https://raw.github.com/ryanseddon/H5F/master/h5f.min.js",
+		"jquery": "http://code.jquery.com/jquery.min.js",
+		"lettering-js": "https://github.com/davatron5000/Lettering.js/raw/master/jquery.lettering.js",
+		"normalize": "https://raw.github.com/necolas/normalize.css/master/normalize.css"
+	},
+	"packages":
+	{
+		"filament-menu": "https://github.com/filamentgroup/RWD-Nav-Patterns/zipball/master",
+		"frameless": "https://github.com/jonikorpi/Frameless/zipball/master",
+		"golden-grid": "https://github.com/jonikorpi/Golden-Grid-System/zipball/master",
+		"html5-boilerplate": "http://github.com/h5bp/html5-boilerplate/zipball/master",
+		"inuit": "http://github.com/csswizardry/inuit.css/zipball/master"
+	}
+}

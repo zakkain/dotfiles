@@ -1,0 +1,14 @@
+{
+	"dialog": false,
+	"growl_active": true,
+	"machine_name":
+	{
+		"137240376033549": "skylab"
+	},
+	"notify_send_active": true,
+	"notify_send_path": "/usr/bin/notify-send",
+	"pushover_active": false,
+	"pushover_user_id": "",
+	"user_id": "5be27bc02ad9e61b1fd1e8b5c0f2d18e46c09904",
+	"user_token": "a80316f3cf71d2bc1177e171deea46e7ddc54e32"
+}

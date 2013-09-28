@@ -56,6 +56,11 @@ end
 
 task :default => 'install'
 
-task :copyFiles do
-  `cp iterm2/code.googlecode.iterm2.plist ~/dropbox`
+task :deployFiles do
+  `cp iterm2/com.googlecode.iterm2.plist ~/Library/Preferences/`
+end
+
+task :backupFiles do
+  `rm -r iterm2/com.googlecode.iterm2.plist`
+  `cp ~/Library/Preferences/com.googlecode.iterm2.plist iterm2/`
 end

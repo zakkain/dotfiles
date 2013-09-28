@@ -1,0 +1,49 @@
+{
+	"auto_upgrade_last_run": null,
+	"installed_packages":
+	[
+		"BracketHighlighter",
+		"Codeivate",
+		"CoffeeScript",
+		"CSScomb",
+		"EditorConfig",
+		"Emmet",
+		"Emmet Css Snippets",
+		"Gist",
+		"Git",
+		"GitGutter",
+		"Haml",
+		"Hex to HSL Color Converter",
+		"Hex-to-RGBA",
+		"jQuery Snippets pack",
+		"Lazy Backbone.js",
+		"LESS",
+		"Liquid",
+		"MacTerminal",
+		"MarkAndMove",
+		"MarkdownEditing",
+		"Nettuts+ Fetch",
+		"Package Control",
+		"Prefixr",
+		"Ruby Slim",
+		"SCSS",
+		"SFTP",
+		"Shell Turtlestein",
+		"SideBarEnhancements",
+		"SideBarGit",
+		"StringEncode",
+		"Stylus",
+		"Sublime Files",
+		"SublimeCodeIntel",
+		"SublimeServer",
+		"SublimeWebColors",
+		"SyncedSideBar",
+		"TrailingSpaces",
+		"WordCount"
+	],
+	"repositories":
+	[
+		"https://github.com/dnfehren/SublimeJekyll",
+		"https://github.com/sergeche/emmet-sublime"
+	]
+}

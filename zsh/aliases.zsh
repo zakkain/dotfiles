@@ -77,3 +77,6 @@ alias hideHidden='defaults write com.apple.Finder AppleShowAllFiles NO && killal
 
 alias dontsave='defaults write NSGlobalDomain NSSavePanelStandardDesktopShortcutOnly -bool YES'
 alias holdkeysoff='defaults write -g ApplePressAndHoldEnabled -bool false'
+
+# Pipe my public key to my clipboard. Fuck you, pay me.
+alias pubkey="more ~/.ssh/id_dsa.public | pbcopy | echo '=> Public key copied to pasteboard.'"
