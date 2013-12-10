@@ -13,6 +13,8 @@ alias tweb="cd /data/web/tomcat/"
 
 alias newAlias='sublime ~/.dotfiles/zsh/aliases.zsh'
 
+alias expense='python expenses'
+
 alias reload!='. ~/.zshrc'
 
 alias sublime='subl'
